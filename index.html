@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+<div class="kaste">
+    <div class="row">
+        <label for="email">Epasts</label>
+        <input id="email" type="text" required>
+    </div>
+
+    <div class="row">
+        <label for="password">Parole</label>
+        <input id="password" type="password" required>
+    </div>
+
+    <p id="emailError" class="error"></p>
+    <p id="passwordError" class="error"></p>
+
+    <button onclick="validate()">Ok</button>
+</div>
+
+<script src="e.js"></script>
+</body>
+</html>
